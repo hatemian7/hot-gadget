@@ -4,6 +4,10 @@
 .container{
     margin-bottom: 100px;
 }
+.nav-item-right{
+    position: absolute;
+    right: 0px;
+}
 #product{
     background-image: url("bg-1.png");
     background-repeat: no-repeat;
