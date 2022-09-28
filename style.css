@@ -38,7 +38,7 @@
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px lightgray;
+    box-shadow: 3px 3px 20px lightgray;
 }
 .smartphone-bg{
     background-image: url("bg-2.png");
@@ -49,11 +49,23 @@
 .orange-text{
     color: #ffa00a;
 }
-.my-card{
+.my-card-1{
     margin: 20px 0px;
     padding: 30px 30px;
     box-shadow: 3px 3px 20px lightgray;
-    border-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.my-card-2{
+    margin: 20px 0px;
+    padding: 30px 30px;
+    box-shadow: 3px 3px 20px lightgray;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .categories{
     text-align: center;
