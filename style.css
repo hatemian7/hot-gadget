@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+#product{
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+
+}
+.carousel-indicators{
+    border-radius: 5px;
+}
+.carousel-indicators .active{
+    /* color: tomato; */
+    background-color: tomato;
+}
+.product-color{
+    color: gray;
+}
+.buy-now-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.card-text-center{
+    text-align: center;
+}
+.card-padding{
+    padding: 20px 0px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.smartphone-bg{
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-position-x: -2%;
+    background-position-y: 23%;
+}
+.orange-text{
+    color: #ffa00a;
+}
+.my-card{
+    margin: 20px 0px;
+    padding: 30px 30px;
+    box-shadow: 3px 3px 20px lightgray;
+    border-radius: 10px;
+}
+.categories{
+    text-align: center;
+    padding: 10px -5px;
+}
+.categories-underline{
+    width: 100px;
+    padding: 0px 10px;
+    border: 3px solid #ffa030;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0px;
+    margin: auto;
+}
+.categories-margin{
+    margin-top: 50px;
+}
+.order-padding{
+    padding: 5% 0;
+}
